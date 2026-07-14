@@ -1,0 +1,56 @@
+{
+  "id": "salad",
+  "name": "Salad",
+  "note": "",
+  "items": [
+    {
+      "name": "Caesar salad",
+      "price": "4.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Rocca salad",
+      "price": "4.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Halloumi salad",
+      "price": "4.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Fruity tabbouleh",
+      "price": "4.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Taco salad",
+      "price": "4.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chopstick salad",
+      "price": "4.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Crab salad",
+      "price": "5.95",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

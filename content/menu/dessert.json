@@ -1,0 +1,35 @@
+{
+  "id": "dessert",
+  "name": "Dessert",
+  "note": "",
+  "items": [
+    {
+      "name": "Special dessert",
+      "price": "4.00",
+      "note": "",
+      "signature": true,
+      "photo": "assets/images/dessert-girl.jpg"
+    },
+    {
+      "name": "Cookies",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "San Sebastian cheesecake",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Brownie with ice cream",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

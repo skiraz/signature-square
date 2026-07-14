@@ -1,0 +1,42 @@
+{
+  "id": "juice",
+  "name": "Fresh juice",
+  "note": "",
+  "items": [
+    {
+      "name": "Lemon with mint",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Orange",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mango",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Strawberry",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Cocktail",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

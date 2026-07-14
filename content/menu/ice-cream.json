@@ -1,0 +1,42 @@
+{
+  "id": "ice-cream",
+  "name": "Ice cream",
+  "note": "",
+  "items": [
+    {
+      "name": "Vanilla",
+      "price": "2.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chocolate",
+      "price": "2.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Strawberry",
+      "price": "2.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Cheesecake",
+      "price": "3.10",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Special ice cream",
+      "price": "3.10",
+      "note": "",
+      "signature": true,
+      "photo": ""
+    }
+  ]
+}

@@ -49,16 +49,30 @@
     }).join('');
   }
 
+  async function loadCategories() {
+    const manifestRes = await fetch('content/menu-manifest.json', { cache: 'no-store' });
+    if (!manifestRes.ok) throw new Error('menu-manifest.json ' + manifestRes.status);
+    const manifest = await manifestRes.json();
+    const slugs = manifest.order || [];
+
+    const results = await Promise.all(
+      slugs.map(function (slug) {
+        return fetch('content/menu/' + slug + '.json', { cache: 'no-store' })
+          .then(function (r) { return r.ok ? r.json() : null; })
+          .catch(function () { return null; });
+      })
+    );
+
+    return results.filter(Boolean);
+  }
+
   async function init() {
     const navEl = document.getElementById('menuNav');
     const bodyEl = document.getElementById('menuBody');
     if (!navEl || !bodyEl) return;
 
     try {
-      const res = await fetch('content/menu.json', { cache: 'no-store' });
-      if (!res.ok) throw new Error('menu.json ' + res.status);
-      const data = await res.json();
-      const categories = data.categories || [];
+      const categories = await loadCategories();
 
       navEl.innerHTML = renderNav(categories);
       bodyEl.innerHTML = categories.map(renderCategory).join('');

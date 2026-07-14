@@ -1,0 +1,42 @@
+{
+  "id": "sandwiches",
+  "name": "Sandwiches",
+  "note": "",
+  "items": [
+    {
+      "name": "Chicken shawarma",
+      "price": "5.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chicken quesadilla",
+      "price": "5.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Crispy chicken",
+      "price": "6.00",
+      "note": "(spicy / regular)",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chicken zurekh",
+      "price": "6.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Filet steak sandwich",
+      "price": "6.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

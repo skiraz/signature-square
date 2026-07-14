@@ -1,0 +1,98 @@
+{
+  "id": "breakfast",
+  "name": "Breakfast",
+  "note": "Cold sandwiches, croissants and manakeesh, served all day.",
+  "items": [
+    {
+      "name": "Halloumi sandwich",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Turkey sandwich",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chicken Caesar sandwich",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Club sandwich",
+      "price": "3.55",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Signature sandwich",
+      "price": "4.50",
+      "note": "",
+      "signature": true,
+      "photo": ""
+    },
+    {
+      "name": "Plain croissant",
+      "price": "2.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Halloumi croissant",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Turkey croissant",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Zatar manakeesh",
+      "price": "3.30",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Halloumi cheese manakeesh",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Zatar with cheese manakeesh",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mix cheese manakeesh",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Turkey with cheese manakeesh",
+      "price": "4.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

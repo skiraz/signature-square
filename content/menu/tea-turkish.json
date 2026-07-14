@@ -1,0 +1,42 @@
+{
+  "id": "tea-turkish",
+  "name": "Tea & Turkish",
+  "note": "",
+  "items": [
+    {
+      "name": "Black tea",
+      "price": "2.85",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Green tea",
+      "price": "2.85",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Herbal tea",
+      "price": "2.85",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Karak tea",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Double Turkish coffee",
+      "price": "3.10",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

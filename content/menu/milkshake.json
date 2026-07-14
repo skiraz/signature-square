@@ -1,0 +1,49 @@
+{
+  "id": "milkshake",
+  "name": "Milkshake",
+  "note": "",
+  "items": [
+    {
+      "name": "Vanilla",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chocolate",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Strawberry",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Oreo",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Cheesecake",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Passion",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

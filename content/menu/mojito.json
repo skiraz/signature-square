@@ -1,0 +1,42 @@
+{
+  "id": "mojito",
+  "name": "Mojito",
+  "note": "Build-your-own mojito — choose a mixer.",
+  "items": [
+    {
+      "name": "Redbull",
+      "price": "4.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Code red",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "BomBom",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Soda water",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "7up",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

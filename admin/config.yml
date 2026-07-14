@@ -10,28 +10,25 @@ display_url: "https://splendorous-selkie-438103.netlify.app"
 
 collections:
   - name: "menu"
-    label: "Menu"
-    files:
-      - file: "content/menu.json"
-        label: "Full Menu"
-        name: "menu"
-        format: "json"
+    label: "Menu Categories"
+    label_singular: "Category"
+    folder: "content/menu"
+    create: false
+    delete: false
+    identifier_field: "name"
+    summary: "{{name}}"
+    fields:
+      - {label: "Category ID (no spaces — matches the menu page link, don't change on existing categories)", name: "id", widget: "string"}
+      - {label: "Category Name", name: "name", widget: "string"}
+      - {label: "Category Note (optional, shown under the title)", name: "note", widget: "string", required: false}
+      - label: "Items"
+        name: "items"
+        widget: "list"
+        label_singular: "Item"
+        summary: "{{fields.name}} — {{fields.price}} JD"
         fields:
-          - label: "Categories"
-            name: "categories"
-            widget: "list"
-            summary: "{{fields.name}} ({{fields.items}} items)"
-            fields:
-              - {label: "Category ID (no spaces — used as a page anchor, e.g. hot-coffee)", name: "id", widget: "string"}
-              - {label: "Category Name", name: "name", widget: "string"}
-              - {label: "Category Note (optional, shown under the title)", name: "note", widget: "string", required: false}
-              - label: "Items"
-                name: "items"
-                widget: "list"
-                summary: "{{fields.name}} — {{fields.price}} JD"
-                fields:
-                  - {label: "Item Name", name: "name", widget: "string"}
-                  - {label: "Price (JD)", name: "price", widget: "string"}
-                  - {label: "Note (e.g. 'spicy / regular')", name: "note", widget: "string", required: false}
-                  - {label: "Mark as a Signature item", name: "signature", widget: "boolean", default: false}
-                  - {label: "Photo (optional)", name: "photo", widget: "image", required: false, media_library: {config: {multiple: false}}}
+          - {label: "Item Name", name: "name", widget: "string"}
+          - {label: "Price (JD)", name: "price", widget: "string"}
+          - {label: "Note (e.g. 'spicy / regular')", name: "note", widget: "string", required: false}
+          - {label: "Mark as a Signature item", name: "signature", widget: "boolean", default: false}
+          - {label: "Photo (optional)", name: "photo", widget: "image", required: false}

@@ -1,0 +1,63 @@
+{
+  "id": "frappe",
+  "name": "Frappe",
+  "note": "",
+  "items": [
+    {
+      "name": "Vanilla frappe",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Caramel frappe",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Salted caramel frappe",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Hazelnut frappe",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mocha frappe",
+      "price": "4.20",
+      "note": "(dark / white)",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Matcha frappe",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "White toffee mocha frappe",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Signature frappe",
+      "price": "4.50",
+      "note": "",
+      "signature": true,
+      "photo": ""
+    }
+  ]
+}

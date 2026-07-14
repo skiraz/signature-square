@@ -1,0 +1,133 @@
+{
+  "id": "smoothie",
+  "name": "Smoothie",
+  "note": "",
+  "items": [
+    {
+      "name": "Mango",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Passion fruit",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mango passion",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Pineapple",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Pina colada",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Strawberry",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mix berry",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Watermelon",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Blueberry",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Dragon fruit",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Kiwi",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Green apple",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mixed green",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Pink",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Summer",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Lemon with mint",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Grapefruit passion",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Signature",
+      "price": "4.20",
+      "note": "",
+      "signature": true,
+      "photo": ""
+    }
+  ]
+}

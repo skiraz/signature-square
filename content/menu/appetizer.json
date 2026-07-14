@@ -1,0 +1,77 @@
+{
+  "id": "appetizer",
+  "name": "Appetizer",
+  "note": "",
+  "items": [
+    {
+      "name": "Dynamite chicken",
+      "price": "5.35",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Dynamite shrimp",
+      "price": "6.70",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chicken cheese fries",
+      "price": "5.55",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mozzarella sticks",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Spring rolls",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chicken wings",
+      "price": "5.35",
+      "note": "(buffalo / BBQ)",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chicken boneless",
+      "price": "5.35",
+      "note": "(buffalo / BBQ)",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "French fries",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Add chicken",
+      "price": "1.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Add cheese",
+      "price": "0.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

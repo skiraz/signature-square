@@ -1,0 +1,21 @@
+{
+  "id": "burger",
+  "name": "Beef burger",
+  "note": "",
+  "items": [
+    {
+      "name": "Cheese burger",
+      "price": "6.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Swiss mushroom burger",
+      "price": "6.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

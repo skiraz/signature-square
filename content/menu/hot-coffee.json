@@ -1,0 +1,161 @@
+{
+  "id": "hot-coffee",
+  "name": "Hot coffee",
+  "note": "",
+  "items": [
+    {
+      "name": "Single espresso",
+      "price": "3.10",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Double espresso",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Espresso macchiato",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Cortado",
+      "price": "3.30",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Americano",
+      "price": "3.10",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Red eye",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Flat white",
+      "price": "3.30",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Caffè latte",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Cappuccino",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Salted caramel latte",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Spanish latte",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Pistachio latte",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mocha",
+      "price": "4.00",
+      "note": "(white / dark)",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Caramel macchiato",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Matcha",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Hot chocolate",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Pumpkin spice latte",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chocolate truffle",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Cinnamon roll latte",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Roshen toffee",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Hazelnut macchiato",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Signature coffee",
+      "price": "4.20",
+      "note": "",
+      "signature": true,
+      "photo": "assets/images/latte-cup.jpg"
+    }
+  ]
+}

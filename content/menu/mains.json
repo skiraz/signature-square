@@ -1,0 +1,49 @@
+{
+  "id": "mains",
+  "name": "Main course",
+  "note": "",
+  "items": [
+    {
+      "name": "Creamy mushroom beef steak",
+      "price": "10.40",
+      "note": "",
+      "signature": true,
+      "photo": "assets/images/steak-plate.jpg"
+    },
+    {
+      "name": "Chicken mosaic",
+      "price": "8.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chicken parmesan",
+      "price": "8.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Beef pistachio steak",
+      "price": "10.40",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Creamy chicken",
+      "price": "8.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Grilled salmon",
+      "price": "12.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "pizza",
+  "name": "Pizza",
+  "note": "",
+  "items": [
+    {
+      "name": "Vegetable",
+      "price": "6.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Margarita",
+      "price": "6.65",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Salami",
+      "price": "7.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Turkey",
+      "price": "7.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Al fredo",
+      "price": "7.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Chicken BBQ",
+      "price": "7.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Supreme",
+      "price": "7.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Calzone",
+      "price": "5.30",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

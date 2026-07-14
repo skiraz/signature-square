@@ -1,0 +1,49 @@
+{
+  "id": "cold-drink",
+  "name": "Cold drink",
+  "note": "",
+  "items": [
+    {
+      "name": "Redbull",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Code red",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Boom Boom",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Perrier",
+      "price": "3.10",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Soft drink",
+      "price": "1.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Water",
+      "price": "1.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "id": "cold-coffee",
+  "name": "Cold coffee",
+  "note": "",
+  "items": [
+    {
+      "name": "Iced Americano",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced shaken espresso",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced shaken mocha",
+      "price": "4.00",
+      "note": "(dark / white)",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced latte",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced salted caramel latte",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced Spanish latte",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced pistachio latte",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced caramel macchiato",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced matcha",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced mocha",
+      "price": "4.20",
+      "note": "(dark / white)",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced pumpkin spice latte",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced chocolate truffle",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced cinnamon roll latte",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced toffee roshen",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced hazelnut macchiato",
+      "price": "4.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Iced signature coffee",
+      "price": "4.20",
+      "note": "",
+      "signature": true,
+      "photo": "assets/images/iced-drink.jpg"
+    },
+    {
+      "name": "Cold brew coffee",
+      "price": "4.00",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

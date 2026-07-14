@@ -1,0 +1,133 @@
+{
+  "id": "shisha",
+  "name": "Shisha",
+  "note": "",
+  "items": [
+    {
+      "name": "Double apple",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Lemon with mint",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Gum & cinnamon",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Gum & mint",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Grape & mint",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Watermelon & mint",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Gum with peach & ice",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Grape & berries",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Blueberry",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mistika",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Mistika with hail",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Candy",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Love",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Fruit mix",
+      "price": "6.20",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Double apple",
+      "price": "7.10",
+      "note": "(Nakhla)",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Signature shisha",
+      "price": "7.10",
+      "note": "",
+      "signature": true,
+      "photo": ""
+    },
+    {
+      "name": "Babelia shisha",
+      "price": "8.85",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Change tobacco head",
+      "price": "3.50",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    }
+  ]
+}

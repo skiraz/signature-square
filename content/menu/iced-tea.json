@@ -1,0 +1,42 @@
+{
+  "id": "iced-tea",
+  "name": "Iced tea",
+  "note": "",
+  "items": [
+    {
+      "name": "Peach",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Lemon",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Raspberry",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Passion fruit",
+      "price": "3.75",
+      "note": "",
+      "signature": false,
+      "photo": ""
+    },
+    {
+      "name": "Signature iced tea",
+      "price": "3.75",
+      "note": "",
+      "signature": true,
+      "photo": ""
+    }
+  ]
+}
