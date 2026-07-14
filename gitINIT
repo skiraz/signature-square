@@ -1,0 +1,7 @@
+cd signature-square
+git init
+git add .
+git commit -m "Initial site with CMS"
+git branch -M main
+git remote add origin https://github.com/skiraz/signature-square.git
+git push -u origin main

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu — Signature Square</title>
+<meta name="description" content="The full menu at Signature Square Coffee House & More — signature coffee, breakfast, mains, desserts, and shisha.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Manrope:wght@400;500;700;800&family=Yellowtail&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header solid">
+  <div class="wrap">
+    <a href="index.html" class="brandmark">
+      <span class="frame">
+        <svg viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 58 L0 2 L98 2 L98 98 L28 98" fill="none" stroke="currentColor" stroke-width="6"/>
+        </svg>
+      </span>
+      <span>
+        <span class="word">Signature</span>
+        <span class="sub">Square</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html#story">Our story</a>
+      <a href="index.html#ambiance">Ambiance</a>
+      <a href="index.html#visit">Visit</a>
+      <a href="index.html" class="btn btn-outline">Back home</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+    </button>
+  </div>
+</header>
+
+<section class="menu-hero">
+  <div class="wrap">
+    <span class="eyebrow">The full menu</span>
+    <h1>Coffee, kitchen &amp; dessert</h1>
+    <p>Everything on offer at Signature Square, from the first espresso of the morning to the last shisha of the night. All prices in Jordanian Dinar (JOD) &mdash; add 8% sales tax and 5% service.</p>
+  </div>
+</section>
+
+<nav class="menu-nav">
+  <div class="wrap" id="menuNav">
+    <!-- category links are rendered here from content/menu.json -->
+  </div>
+</nav>
+
+<section class="menu-body">
+  <div class="wrap" id="menuBody">
+    <!-- categories and items are rendered here from content/menu.json -->
+    <p style="color:var(--espresso-soft);">Loading menu&hellip;</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-bottom" style="border-top:1px solid var(--line-on-dark); padding-top:1.6rem;">
+      <span>© 2026 Signature Square Coffee House &amp; More.</span>
+      <a href="index.html#visit">Abdullah Ghosheh Street, near the 8th Circle, Amman</a>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+<script src="assets/js/menu-render.js"></script>
+</body>
+</html>
