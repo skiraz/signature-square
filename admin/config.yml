@@ -5,8 +5,8 @@ backend:
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
 
-site_url: "https://splendorous-selkie-438103.netlify.app"
-display_url: "https://splendorous-selkie-438103.netlify.app"
+site_url: "https://signaturesquare.netlify.app"
+display_url: "https://signaturesquare.netlify.app"
 
 collections:
   - name: "menu"
