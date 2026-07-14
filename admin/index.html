@@ -19,5 +19,95 @@
       });
     }
   </script>
+
+  <script>
+    // Makes the live preview pane (right side, while editing a category)
+    // actually look like the real Signature Square menu — same fonts,
+    // colors and layout — instead of Decap's plain default preview.
+
+    CMS.registerPreviewStyle(
+      "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Manrope:wght@400;700;800&display=swap"
+    );
+
+    CMS.registerPreviewStyle(`
+      body { background:#F5EFE4; margin:0; }
+      .ss-preview { font-family:'Manrope',sans-serif; color:#211B16; padding:2rem 2.2rem; max-width:640px; }
+      .ss-eyebrow { font-size:0.7rem; letter-spacing:0.24em; text-transform:uppercase; font-weight:700; color:#B8863F; }
+      .ss-preview h1 { font-family:'Fraunces',serif; font-weight:500; font-size:2.1rem; margin:0.5rem 0 0.3rem; }
+      .ss-note { color:#3A322A; font-size:0.95rem; margin:0 0 1.6rem; }
+      .ss-item { display:flex; align-items:center; gap:0.9rem; padding:0.9rem 0; border-bottom:1px dashed rgba(33,27,22,0.14); }
+      .ss-photo { width:46px; height:46px; border-radius:50%; overflow:hidden; flex:none; border:1px solid rgba(33,27,22,0.14); }
+      .ss-photo img { width:100%; height:100%; object-fit:cover; }
+      .ss-info { flex:1; min-width:0; }
+      .ss-name { font-family:'Fraunces',serif; font-size:1.02rem; }
+      .ss-inline-note { font-size:0.82rem; color:#3A322A; margin-left:0.3rem; }
+      .ss-tag { font-size:0.55rem; letter-spacing:0.08em; text-transform:uppercase; font-weight:700; color:#74805F; border:1px solid #74805F; border-radius:999px; padding:0.1rem 0.45rem; margin-left:0.5rem; vertical-align:middle; }
+      .ss-price { font-family:'Fraunces',serif; color:#B8863F; font-size:1rem; white-space:nowrap; }
+      .ss-empty { color:#3A322A; font-size:0.9rem; font-style:italic; }
+    `, { raw: true });
+
+    var MenuPreview = createClass({
+      render: function () {
+        var entry = this.props.entry;
+        var data = entry.get("data");
+        if (!data) return h("div", { className: "ss-preview" });
+
+        var name = data.get("name") || "Untitled category";
+        var note = data.get("note");
+        var items = data.get("items");
+        var getAsset = this.props.getAsset;
+
+        return h(
+          "div",
+          { className: "ss-preview" },
+          h("span", { className: "ss-eyebrow" }, "Signature Square — live preview"),
+          h("h1", {}, name),
+          note ? h("p", { className: "ss-note" }, note) : null,
+          !items || items.size === 0
+            ? h("p", { className: "ss-empty" }, "No items yet.")
+            : h(
+                "div",
+                { className: "ss-items" },
+                items.map(function (item, i) {
+                  var photo = item.get("photo");
+                  return h(
+                    "div",
+                    { key: i, className: "ss-item" },
+                    photo
+                      ? h(
+                          "div",
+                          { className: "ss-photo" },
+                          h("img", { src: getAsset(photo).toString() })
+                        )
+                      : null,
+                    h(
+                      "div",
+                      { className: "ss-info" },
+                      h(
+                        "span",
+                        { className: "ss-name" },
+                        item.get("name"),
+                        item.get("note")
+                          ? h("span", { className: "ss-inline-note" }, item.get("note"))
+                          : null,
+                        item.get("signature")
+                          ? h("span", { className: "ss-tag" }, "Signature")
+                          : null
+                      )
+                    ),
+                    h(
+                      "span",
+                      { className: "ss-price" },
+                      item.get("price") ? item.get("price") + " JD" : ""
+                    )
+                  );
+                })
+              )
+        );
+      },
+    });
+
+    CMS.registerPreviewTemplate("menu", MenuPreview);
+  </script>
 </body>
 </html>
