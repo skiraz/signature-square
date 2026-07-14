@@ -30,6 +30,12 @@
       "note": "",
       "signature": false,
       "photo": ""
+    },
+    {
+      "signature": true,
+      "name": "test",
+      "price": "11",
+      "note": "ddasfs"
     }
   ]
 }
