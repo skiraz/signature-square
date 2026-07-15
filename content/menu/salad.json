@@ -5,7 +5,7 @@
   "items": [
     {
       "name": "Caesar salad",
-      "price": "4.50",
+      "price": "5.00",
       "note": "",
       "signature": false,
       "photo": ""
@@ -51,6 +51,11 @@
       "note": "",
       "signature": false,
       "photo": ""
+    },
+    {
+      "signature": false,
+      "name": "Russian Salad",
+      "price": "3.50"
     }
   ]
 }
